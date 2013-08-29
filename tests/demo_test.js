@@ -14,4 +14,4 @@ test( "sayHello()", function(assert) {
 
 	ok( typeof person.sayHello === "function", "'sayHello' method is present" );
 	ok( typeof person.sayHello() === "string", "'sayHello' returns the correct type" );
-})
+});
